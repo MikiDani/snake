@@ -547,7 +547,7 @@ class Engine {
         if (value == "bg3") { returnValue = ["#d38e45","#cc7525","a94a12"] }
         document.getElementById("menu").style.backgroundColor=returnValue[0];
         document.getElementById("menu").style.border="4mm ridge "+returnValue[1];
-        document.getElementById("display").style.backgroundImage="url('../img/"+value+".jpg')";
+        document.getElementById("display").style.backgroundImage="url('img/"+value+".jpg')";
     }
 
     players = () => {
